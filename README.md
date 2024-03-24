@@ -16,10 +16,9 @@ I developed a responsive layout using Flexbox and TypeScript to ensure static ty
 
 The goal is to create a dynamic layout in React by connecting to a dummy API with TypeScript and managing global state using Context API.
 
-## Layout Desktop e Mobile (Desktop and Mobile Layout)
+## Mobile Layout
 
-
-<img src="./layouts/images/mobile.png" alt="Layouts Web / Mobile" width="150" border="1"/>
+<img src="./layouts/images/mobile.png" alt="Mobile Layout" width="150" border="1"/>
 
 ## Tecnologias Utilizadas (Technologies Used)
 * HTML5
