@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    outline: 0 auto;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0,0.7);
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h3,
+h5 {
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #FF6600;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+body,
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+#page {
+    width: 80vw;
+    height: 100vh;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    padding: 1.5rem 0;
+}
+
+#nav ul {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav ul li {
+    width: auto;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #FF6600;
+    font-weight: 700;
+}
+
+#nav ul li a {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+#nav ul li a,
+#nav ul li a:link,
+#nav ul li a:visited,
+#nav ul li a:active {
+    color: rgba(0,0,0,0.6);
+}
+
+#nav ul li img {
+    width: 28px;
+}
+
+#nav ul li a img {
+    width: 42px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+#header-title {
+    text-align: left;
+}
+
+#header-section h1 {
+    color: #FF6600;
+    font-size: 1.8rem;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#products {
+    width: 50%;
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#products .item {
+    width: 22%;
+    height: auto;
+    text-align: center;
+}
+
+#products .item button {
+    padding: 0.2rem 0.5rem;
+    color: #FFF;
+    background-color: #FF6600;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+#products .item img {
+    padding: 0.2rem 0;
+}
+
+#cart {
+    width: 50%;
+    height: auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cart h3 {
+    width: 70%;
+    line-height: 2.3rem;
+    text-align: left;
+}
+
+#cart h4 {
+    color: #FF6600;
+}
+
+#cart ul {
+    padding: 0;
+    list-style: none;
+}
+
+#cart-list {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;        
+}
+
+#cart-list .item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.error {
+    width: 100%;
+    text-align: left;
+}
+
+#cart-list .item span {
+    display: none;
+}
+
+#cart-list .item img {
+    width: 16%;
+}
+
+#cart-list .item button {
+    width: 14px;
+    height: 14px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: #FFF;
+    background-color: #FF6600;
+    cursor: pointer;    
+}
+
+#cart-list .item-select {
+    width: 100%;
+    height: auto;
+}
+
+#cart-list .item .item-description {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#footer span {
+    font-weight: 700;
+}
+
+@media(max-width: 786px) {
+    #page {
+        width: 90vw;
+    }
+    #header,
+    #header-section,
+    #products,
+    #cart,
+    #cart-list,
+    #cart h3 {
+        width: 100%;       
+    }
+    #cart h3 {
+        text-align: center;      
+    }
+    #products {
+        justify-content: space-between;
+    }
+    #products .item {
+        width: 24%;
+    }
+    #header,
+    #header-section {
+        text-align: center;
+        justify-content: center;
+    }
+    #header-title {
+        text-align: center;
+    }
+    #header,
+    #products,
+    #cart,
+    #footer {
+        padding: 1.3rem 0;
+    }
+    .error {
+        text-align: center;
+    }
+}
+
+

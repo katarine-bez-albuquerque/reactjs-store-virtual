@@ -1,0 +1,132 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "image": "borracha.png",
+            "name": "Borracha",
+            "quantity": 3,
+            "value": 2.25,
+            "type": "papelaria"
+        },
+        {
+            "id": 2,
+            "image": "caderno.png",
+            "name": "Caderno",
+            "quantity": 10,
+            "value": 16.45,
+            "type": "papelaria"
+        },
+        {
+            "id": 3,
+            "image": "caneta.png",
+            "name": "Caneta",
+            "quantity": 12,
+            "value": 3.56,
+            "type": "papelaria"
+        },
+        {
+            "id": 4,
+            "image": "lapis.png",
+            "name": "Lápis",
+            "quantity": 25,
+            "value": 1.98,
+            "type": "papelaria"
+        },
+        {
+            "id": 5,
+            "image": "televisao.png",
+            "name": "Televisão",
+            "quantity": 1,
+            "value": 1325.89,
+            "type": "eletrônico"
+        },
+        {
+            "id": 6,
+            "image": "celular.png",
+            "name": "Celular",
+            "quantity": 2,
+            "value": 895.78,
+            "type": "eletrônico"
+        },
+        {
+            "id": 7,
+            "image": "tablet.png",
+            "name": "Tablet",
+            "quantity": 1,
+            "value": 1129.57,
+            "type": "eletrônico"
+        },
+        {
+            "id": 8,
+            "image": "radio.png",
+            "name": "Rádio",
+            "quantity": 1,
+            "value": 328.54,
+            "type": "eletrônico"
+        },
+        {
+            "id": 9,
+            "image": "relogio.png",
+            "name": "Relógio",
+            "quantity": 3,
+            "value": 36.24,
+            "type": "utilidade"
+        },
+        {
+            "id": 10,
+            "image": "ventilador.png",
+            "name": "Ventilador",
+            "quantity": 4,
+            "value": 263.72,
+            "type": "eletro doméstico"
+        },
+        {
+            "id": 11,
+            "image": "guitarra.png",
+            "name": "Guitarra",
+            "quantity": 2,
+            "value": 984.76,
+            "type": "música"
+        },
+        {
+            "id": 12,
+            "image": "violao.png",
+            "name": "Violão",
+            "quantity": 1,
+            "value": 427.81,
+            "type": "música"
+        },
+        {
+            "id": 13,
+            "image": "teclado-musical.png",
+            "name": "Teclado Musical",
+            "quantity": 1,
+            "value": 895.32,
+            "type": "música"
+        },
+        {
+            "id": 14,
+            "image": "monitor.png",
+            "name": "Monitor",
+            "quantity": 2,
+            "value": 794.25,
+                "type": "eletrônico"
+        },
+        {
+            "id": 15,
+            "image": "notebook.png",
+            "name": "Notebook",
+            "quantity": 1,
+            "value": 1468.38,
+            "type": "informática"
+        },
+        {
+            "id": 16,
+            "image": "teclado.png",
+            "name": "Teclado",
+            "quantity": 3,
+            "value": 128.64,
+            "type": "informática"
+        }
+    ]
+}
