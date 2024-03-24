@@ -4,6 +4,8 @@
 
 <img src="./layouts/images/banner.png" alt="Banner" width="100%" border="1"/>
 
+Acesse o Projeto: [Store Virtual React](https://reactjs-store-virtual.vercel.app/)
+
 ## Sobre o projeto
 
 Desenvolvi um layout responsivo utilizando Flexbox e TypeScript para garantir tipagem estática e segurança no código. Integrei uma API JSON com dados fictícios, utilizando arrays para manipulação e Context API para gerenciamento do estado global da aplicação. Implementei rotas para navegação e o design foi cuidadosamente elaborado para proporcionar uma experiência visual agradável.
